@@ -25,7 +25,38 @@ a {
   display: block;
   margin-bottom: 30px;
 }
-
+main {
+  position: relative;
+  height: 100vh;
+}
+.sidebar {
+  width: 250px;
+  padding: 20px 0;
+}
+.sidebar__content svg {
+  width: 25px;
+  margin-right: 10px;
+}
+.sidebar__content p {
+  color: #9d9c9c;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-size: 14px;
+}
+.sidebar__content p:hover {
+  color: white;
+}
+.sidebar hr {
+  color: grey;
+  margin-top: 0;
+}
+.sidebar_logo {
+  width: 170px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
 .login__content button {
   padding: 15px 30px;
   border-radius: 30px;
